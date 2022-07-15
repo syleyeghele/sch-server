@@ -5,14 +5,25 @@ const cors = require('cors');
 const app = express();
 
 //Mysql DB connection
+// const knex = require('knex')({
+//     client: 'mysql',
+//     connection: {
+//       host : 'localhost',
+//       port: 8889,
+//       user : 'root',
+//       password : 'root',
+//       database : 'estyvida'
+//     }
+//   });
+
 const knex = require('knex')({
     client: 'mysql',
     connection: {
-      host : 'localhost',
-      port: 8889,
-      user : 'root',
-      password : 'root',
-      database : 'estyvida'
+      host : 'https://www.phpmyadmin.co',
+      port: 3306,
+      user : 'sql3506781',
+      password : 'nFI1HvJDf5',
+      database : 'sql3506781'
     }
   });
 
