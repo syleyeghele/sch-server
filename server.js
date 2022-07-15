@@ -41,7 +41,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 app.get('/', (req, res) => {
-    res.status(200).send({message: 'on display'})
+    res.status(200).send({message: 'db connection updated'})
 })
 
 // to update password by user
